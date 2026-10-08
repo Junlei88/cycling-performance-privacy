@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隐私政策 · Cycling Performance</title>
+<style>
+  :root { --bg:#0a0f16; --card:#121a26; --fg:#e6edf5; --muted:#9fb0c3; --accent:#22d3ee; --line:#223142; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--muted); font:15px/1.9 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:48px 20px 80px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:40px 36px; }
+  h1 { color:var(--fg); font-size:26px; margin-bottom:6px; }
+  .date { font-size:13px; color:var(--muted); margin-bottom:28px; }
+  h2 { color:var(--fg); font-size:17px; margin:28px 0 8px; }
+  p, li { margin-bottom:8px; }
+  ul { padding-left:22px; margin-bottom:8px; }
+  strong { color:var(--fg); font-weight:600; }
+  .brand { color:var(--accent); font-weight:700; letter-spacing:.5px; margin-bottom:20px; font-size:14px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <div class="brand">CYCLING PERFORMANCE</div>
+    <h1>隐私政策</h1>
+    <p class="date">更新日期：2026 年 10 月 7 日 · 生效日期：2026 年 10 月 7 日</p>
+
+    <h2>1. 我们收集哪些信息</h2>
+    <p>Cycling Performance（下称"本应用"）是<strong>离线优先</strong>的骑行训练记录工具。所有数据默认只存储在你的设备本地（浏览器 IndexedDB / 应用沙盒），包括：</p>
+    <ul>
+      <li>账号信息：昵称、邮箱、密码（密码经 bcrypt 加密后存储，我们不保存明文）</li>
+      <li>骑行记录：距离、时长、功率、心率、体感、备注</li>
+      <li>GPS 轨迹与海拔：仅在你使用"大字码表"记录时采集，用于绘制轨迹地图与爬升剖面</li>
+      <li>体能测试与身体状态记录</li>
+      <li>Pro 订阅状态（本地存储）</li>
+    </ul>
+
+    <h2>2. 位置信息的使用</h2>
+    <p>本应用仅在<strong>你主动开始骑行记录</strong>时通过 GPS 获取位置，用于：实时码表、绘制轨迹、赛段自动计时、爬升分析。应用不在后台收集位置；停止记录后立即停止定位。轨迹数据不上传任何服务器。</p>
+
+    <h2>3. 信息的共享与披露</h2>
+    <p>我们不出售、不出租、不与任何第三方共享你的个人数据。应用内无第三方广告 SDK、无行为追踪、无分析埋点。分享卡片（图片）由你在本机生成并自行保存/发送，我们不接触分享内容。</p>
+
+    <h2>4. 数据安全</h2>
+    <p>密码使用 bcrypt 加盐哈希存储；所有训练数据保存在设备本地数据库中。请妥善保管你的设备与账号密码。应用不提供云端同步，卸载应用或清除应用数据将导致本地数据不可恢复，建议定期使用 Pro 版的数据导出功能备份 CSV。</p>
+
+    <h2>5. 订阅与支付</h2>
+    <p>Pro 订阅通过应用商店（Google Play / App Store）结算，支付由商店处理，我们<strong>不接触、不存储</strong>你的支付卡号等财务信息。订阅管理（取消、退款）请在相应商店的订阅设置中操作。</p>
+
+    <h2>6. 儿童隐私</h2>
+    <p>本应用面向成年骑行爱好者，不面向 13 岁以下儿童，也不会故意收集儿童的个人信息。</p>
+
+    <h2>7. 政策更新</h2>
+    <p>我们可能随功能迭代更新本政策，更新后的版本将随应用发布。重大变更会在应用内显著位置提示。</p>
+
+    <h2>8. 联系我们</h2>
+    <p>如对本政策或数据处理有任何疑问，请联系开发者：<strong>Junlei（GitHub: <a href="https://github.com/Junlei88">Junlei88</a>）</strong>。</p>
+  </div>
+</div>
+</body>
+</html>
